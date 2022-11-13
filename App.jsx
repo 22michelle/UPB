@@ -3,7 +3,7 @@ import axios from 'axios';
 import { StatusBar } from 'expo-status-bar';
 import { Navigation } from './src/navigation/Navigation';
 
-axios.defaults.baseURL="http://10.37.61.91:4000"
+axios.defaults.baseURL="http://192.168.20.28:4000"
 
 export default function App() {
   return (
@@ -13,5 +13,3 @@ export default function App() {
     </NavigationContainer>
   );
 };
-
-
